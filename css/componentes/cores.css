@@ -1,0 +1,36 @@
+/* TONS DE CINZA */
+
+:root {
+    --c00: #ffffff;
+    --c05: #f5f5f5;
+    --c10: #ebebeb;
+    --c20: #e1e1e1;
+    --c30: #c8c8c8;
+    --c40: #afafaf;
+    --c50: #969696;
+    --c60: #7d7d7d;
+    --c70: #646464;
+    --c80: #4b4b4b;
+    --c90: #323232;
+    --c95: #191919;
+    --c100: #000000;
+}
+
+/* CORES PRIMÁRIAS */
+
+:root {
+    --p1: #FCF6EB;
+    --p2: #F7E9D4;
+    --p3: #F6DEB1;
+    --p4: #C2A57A;
+    --p5: #967548;
+}
+
+/* CORES SECUNDÁRIAS */
+
+:root {
+    --p1: #F7F4EF;
+    --p2: #E2DCCA;
+    --p3: #B8AB8E;
+    --p4: #938D80;
+}
