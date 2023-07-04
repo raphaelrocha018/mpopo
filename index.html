@@ -2,6 +2,9 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#a38a5d">
@@ -10,12 +13,12 @@
     <meta name="description" content="Mpopo Gold é uma empresa de mineração com base em Angola, focada na extração de ouro.">
     <link rel="icon" href="./assets/icons/mpopo-favicon.ico" type="image/x-icon">
 
-    <!-- <script>document.documentElement.className += ' js';</script> -->
+    <script>document.documentElement.className += ' js';</script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" data-inicio="e">
         <div class="header-conteudo container">
             <picture>
                 <img src="./assets/logo/logo1.svg" alt="Logotipo Mpopo Gold">
@@ -38,57 +41,76 @@
     <main>
         <section class="home" id="home">
             <div class="home-conteudo container">
-                <picture>
+                <picture data-inicio="a">
                     <img src="./assets/logo/logo2.svg" alt="Logo Mpopo Gold">
                 </picture>
-                <p>Mpopo é uma mina de ouro localizada no município de Jamba, na província de Huíla em Angola.</p>
-                <p>A Mpopo Gold tem se dedicado ao reconhecimento, pesquisa, prospecção e exploração de minerais e coopera com o projeto mineiro estruturado pelo Plano de Desenvolvimento Nacional (PDN).</p>
-                <p>A previsão é colaborar no projeto angolano de extração de cerca de <em>30</em> mil onças de ouro por ano, contribuindo muito com a indústria tecnológica e joalheira, além das reservas de valor do país.</p>
+                <p data-inicio="b">Mpopo é uma mina de ouro localizada no município de Jamba, na província de Huíla em Angola.</p>
+                <p data-inicio="c">A Mpopo Gold tem se dedicado ao reconhecimento, pesquisa, prospecção e exploração de minerais e coopera com o projeto mineiro estruturado pelo Plano de Desenvolvimento Nacional (PDN).</p>
+                <p data-inicio="d">A previsão é colaborar no projeto angolano de extração de cerca de <em>30</em> mil onças de ouro por ano, contribuindo muito com a indústria tecnológica e joalheira, além das reservas de valor do país.</p>
             </div>
         </section>
-        <section class="home-sobre" id="home-sobre">
-            <h2>O Ouro</h2>
-            <p>O ouro é um dos metais mais valiosos e cobiçados do mundo. Além de ser usado na joalheria, na medicina e na indústria, ele também tem uma história fascinante e muitas propriedades surpreendentes. Descubra tudo na nossa sessão de curiosidades.</p>
-            <picture>
-                <img src="" alt="Imagem1">
-            </picture>
+        <section class="home-curiosidades" id="home-curiosidades" data-anime="scroll">
+            <div class="container">
+                <h2>O Ouro</h2>
+                <p>O ouro é um dos metais mais valiosos e cobiçados do mundo. Além de ser usado na joalheria, na medicina e na indústria, ele também tem uma história fascinante e muitas propriedades surpreendentes. Descubra tudo na nossa sessão de curiosidades.</p>
+                <a href="/curiosidades.html">
+                    Curiosidades
+                    <img src="./assets/icons/arrow.svg" alt="">
+                </a>
+                <picture>
+                    <img src="./assets/img/imagem1.jpg" alt="Caminhões cheios de minério">
+                </picture>
+            </div>
         </section>
-        <section class="home-curiosidades" id="home-curiosidades">
-            <h2>Sobre</h2>
-            <p>Conheça nosso trabalho, estrutura organizacional e acesse nossos certificados, alvarás e inspeção de qualidade.</p>
-            <picture>
-                <img src="" alt="Imagem2">
-            </picture>
+        <section class="home-sobre" id="home-sobre" data-anime="scroll">
+            <div class="container">
+                <h2>Sobre</h2>
+                <p>Conheça nosso trabalho, estrutura organizacional e acesse nossos certificados, alvarás e inspeção de qualidade.</p>
+                <a href="/sobre.html">
+                    Quem somos
+                    <img src="./assets/icons/arrow-dark.svg" alt="">
+                </a>
+                <picture>
+                    <img src="./assets/img/imagem2.jpg" alt="Campo de mineração visto de cima, com vários caminhões">
+                </picture>
+            </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <picture>
-            <img src="" alt="Logo3">
-        </picture>
-        <address>
-            <address class="endereco-contatos">
-                <p>
-                    <a target="_blank" href="https://goo.gl/maps/oU7Qtgry7frgesnn8">
-                        Condomínio Belas Business Park<br>
-                        Edf. Luanda, 8º 801ª Talatona<br>
-                        República de Angola
-                    </a>
-                </p>
-                <p>Telefone: <a target="_blank" href="tel:+244932730086">+244 932 730 086</a></p>
-                <p>Email: <a target="_blank" href="mailto:info@mpopogold.com">info@mpopogold.com</a></p>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <a href="#home">
+                <picture>
+                    <img src="./assets/logo/logo-flat.svg" alt="Logotipo Mpopo Gold monocromática">
+                </picture>
+            </a>
+            <address>
+                <address class="endereco-contatos">
+                    <p>
+                        <a target="_blank" href="https://goo.gl/maps/oU7Qtgry7frgesnn8">
+                            Condomínio Belas Business Park<br>
+                            Edf. Luanda, 8º 801ª Talatona<br>
+                            República de Angola
+                        </a>
+                    </p>
+                    <p>Telefone: <a target="_blank" href="tel:+244932730086">+244 932 730 086</a></p>
+                    <p>Email: <a target="_blank" href="mailto:info@mpopogold.com">info@mpopogold.com</a></p>
+                </address>
+
             </address>
-            <div class="redes-sociais">
-                <h3>Nos encontre também nas redes sociais</h3>
-                <ul>
-                    <li><a target="_blank" href="https://www.facebook.com"><img src="./css/img/icons/facebook.svg" alt="Ícone do Facebook"></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com"><img src="./css/img/icons/instagram.svg" alt="Ícone do Instagram"></a></li>
-                    <li><a target="_blank" href="https://www.whatsapp.com"><img src="./css/img/icons/whatsapp.svg" alt="Ícone do Whatsapp"></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com"><img src="./css/img/icons/linkedin.svg" alt="Ícone do LinkedIn"></a></li>
-                </ul>
+            <div>
+                <div class="redes-sociais">
+                    <h3>Nos encontre também nas redes sociais</h3>
+                    <ul>
+                        <li><a target="_blank" href="https://www.facebook.com"><img src="./assets/icons/facebook.svg" alt="Ícone do Facebook"></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com"><img src="./assets/icons/instagram.svg" alt="Ícone do Instagram"></a></li>
+                        <li><a target="_blank" href="https://www.whatsapp.com"><img src="./assets/icons/whatsapp.svg" alt="Ícone do Whatsapp"></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com"><img src="./assets/icons/linkedin.svg" alt="Ícone do LinkedIn"></a></li>
+                    </ul>
+                </div>
+                <p class="copyright">Todos os direitos reservados.</p>
             </div>
-        </address>
-        <p>Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script type="module" src="./js/script.js"></script>

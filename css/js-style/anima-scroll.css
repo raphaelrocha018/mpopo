@@ -1,0 +1,12 @@
+/* ANIMA AO ROLAR A TELA */
+
+.js [data-anime="scroll"] {
+    opacity: 0;
+    transition: ease-in 0.5s;
+    transform: translateX(-30px);
+}
+
+.js [data-anime="scroll"].ativo {
+    opacity: 1;
+    transform: translateX(0px);
+}

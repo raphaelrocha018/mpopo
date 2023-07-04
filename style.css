@@ -5,20 +5,20 @@
 
 /* GLOBAL */
 
-@import url(./css/global.css);
-@import url(./css/header.css);
-@import url(./css/footer.css);
+@import url("./css/global.css");
+@import url("./css/header.css");
+@import url("./css/footer.css");
 
 /* PÁGINAS */
 
-@import url(./css/inicio.css);
-@import url(./css/sobre.css);
-@import url(./css/localizacao.css);
-@import url(./css/curiosidades.css);
-@import url(./css/contatos.css);
+@import url("./css/inicio.css");
+@import url("./css/sobre.css");
+@import url("./css/localizacao.css");
+@import url("./css/curiosidades.css");
+@import url("./css/contatos.css");
 
 /* JAVASCRIPT */
 
-@import url("./css/js-style/menu-mobile.css");
 @import url("./css/js-style/anima-scroll.css");
 @import url("./css/js-style/anima-inicio.css");
+/* @import url("./css/js-style/menu-mobile.css"); */

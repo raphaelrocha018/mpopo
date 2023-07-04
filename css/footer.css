@@ -1,0 +1,75 @@
+.footer {
+    background-color: var(--s1);
+}
+
+.footer > div {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer address {
+    font-family: var(--font-1);
+    font-size: 0.875rem;
+    font-weight: 500;
+
+    color: var(--c60);
+    position: relative;
+    height: max-content;
+}
+
+.footer address p:first-child {
+    margin-bottom: 1.25rem;
+}
+
+.footer address::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 100%;
+    background-color: var(--s2);
+    border-radius: 4px;
+    position: absolute;
+    left: -12px;
+}
+
+.footer address a:hover {
+    color: var(--p6);
+}
+
+.redes-sociais h3 {
+    font-family: var(--font-2);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: right;
+    color: var(--s4);
+
+    margin-bottom: 0.75rem;
+    max-width: 16rem;
+}
+
+.redes-sociais ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0.875rem;
+    justify-content: end;
+}
+
+.redes-sociais ul li {
+    transition: 0.3s ease;
+}
+
+.redes-sociais ul li:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    font-family: var(--font-2);
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-align: end;
+    color: var(--s4);
+
+    margin-top: 2rem;
+}
