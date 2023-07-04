@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#a38a5d">
 
-    <title>Mpopo Gold</title>
-    <link rel="icon" href="./assets/img/mpopo-favicon.ico" type="image/x-icon">
+    <title>Mpopo Gold - Mina de Ouro</title>
+    <meta name="description" content="Mpopo Gold é uma empresa de mineração com base em Angola, focada na extração de ouro.">
+    <link rel="icon" href="./assets/icons/mpopo-favicon.ico" type="image/x-icon">
 
+    <!-- <script>document.documentElement.className += ' js';</script> -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
-        <div class="container">
-        <picture>
-            <img src="./assets/logo/logo1.svg" alt="Logo Mpopo Gold">
-        </picture>
-        <nav>
-            <menu class="menu-lista">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="/sobre.html">Sobre</a></li>
-                <li><a href="/localizacao.html">Localização</a></li>
-                <li><a href="/curiosidades.html">Curiosidades</a></li>
-            </menu>
-        </nav>
-        <button class="btn1">
-            <a href="/contatos.html">Fale Conosco</a>
-        </button>
-    </div>
-    </header>
-    <main>
-        <section class="inicio">
-            <div class="inicio-conteudo container">
+        <div class="header-conteudo container">
             <picture>
-                <img src="./assets/logo/logo2.svg" alt="Logo Mpopo Gold">
+                <img src="./assets/logo/logo1.svg" alt="Logotipo Mpopo Gold">
             </picture>
-            <p>Mpopo é uma mina de ouro localizada no município de Jamba, na província de Huíla em Angola.</p>
-            <p>A Mpopo Gold tem se dedicado ao reconhecimento, pesquisa, prospecção e exploração de minerais e coopera com o projeto mineiro estruturado pelo Plano de Desenvolvimento Nacional (PDN).</p>
-            <p>A previsão é colaborar no projeto angolano de extração de cerca de 30 mil onças de ouro por ano, contribuindo muito com a indústria tecnológica e joalheira, além das reservas de valor do país.</p>
+            <nav>
+                <!-- <button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
+                    <img src="./assets/icons/menu-burger.svg" alt="Ícone de menu">
+                </button> -->
+                <menu class="menu-lista">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./localizacao.html">Localização</a></li>
+                    <li><a href="./curiosidades.html">Curiosidades</a></li>
+                </menu>
+            </nav>
+            <a class="btn1" href="#contatos">Fale conosco</a>
         </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-conteudo container">
+                <picture>
+                    <img src="./assets/logo/logo2.svg" alt="Logo Mpopo Gold">
+                </picture>
+                <p>Mpopo é uma mina de ouro localizada no município de Jamba, na província de Huíla em Angola.</p>
+                <p>A Mpopo Gold tem se dedicado ao reconhecimento, pesquisa, prospecção e exploração de minerais e coopera com o projeto mineiro estruturado pelo Plano de Desenvolvimento Nacional (PDN).</p>
+                <p>A previsão é colaborar no projeto angolano de extração de cerca de <em>30</em> mil onças de ouro por ano, contribuindo muito com a indústria tecnológica e joalheira, além das reservas de valor do país.</p>
+            </div>
         </section>
-        <section class="sobre">
+        <section class="home-sobre" id="home-sobre">
             <h2>O Ouro</h2>
             <p>O ouro é um dos metais mais valiosos e cobiçados do mundo. Além de ser usado na joalheria, na medicina e na indústria, ele também tem uma história fascinante e muitas propriedades surpreendentes. Descubra tudo na nossa sessão de curiosidades.</p>
             <picture>
                 <img src="" alt="Imagem1">
             </picture>
         </section>
-        <section class="curiosidades">
+        <section class="home-curiosidades" id="home-curiosidades">
             <h2>Sobre</h2>
             <p>Conheça nosso trabalho, estrutura organizacional e acesse nossos certificados, alvarás e inspeção de qualidade.</p>
             <picture>
@@ -55,7 +61,8 @@
             </picture>
         </section>
     </main>
-    <footer class="rodape">
+
+    <footer class="footer">
         <picture>
             <img src="" alt="Logo3">
         </picture>
@@ -83,5 +90,8 @@
         </address>
         <p>Todos os direitos reservados.</p>
     </footer>
+
+    <script type="module" src="./js/script.js"></script>
 </body>
+
 </html>

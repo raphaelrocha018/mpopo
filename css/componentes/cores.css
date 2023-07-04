@@ -19,18 +19,20 @@
 /* CORES PRIMÁRIAS */
 
 :root {
-    --p1: #FCF6EB;
-    --p2: #F7E9D4;
-    --p3: #F6DEB1;
-    --p4: #C2A57A;
+    --p1: #fcf6eb;
+    --p2: #f7e9d4;
+    --p3: #f6deb1;
+    --p4: #c2a57a;
     --p5: #967548;
+    --p6: #443520;
 }
 
 /* CORES SECUNDÁRIAS */
 
 :root {
-    --p1: #F7F4EF;
-    --p2: #E2DCCA;
-    --p3: #B8AB8E;
-    --p4: #938D80;
+    --s1: #f7f4ef;
+    --s2: #e2dcca;
+    --s3: #b8ab8e;
+    --s4: #938d80;
+    --s5: #c5a158;
 }
