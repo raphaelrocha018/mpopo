@@ -2,6 +2,10 @@
     background-color: var(--s1);
 }
 
+.dark {
+    background-color: var(--s2);
+}
+
 .footer > div {
     padding-top: 6rem;
     padding-bottom: 4rem;
