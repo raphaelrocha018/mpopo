@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#a38a5d">
 
-    <title>Mpopo Gold - Contatos</title>
-    <link rel="icon" href="./assets/img/mpopo-favicon.ico" type="image/x-icon">
+    <title>Mpopo Gold - Mina de Ouro</title>
+    <meta name="description" content="Mpopo Gold é uma empresa de mineração com base em Angola, focada na extração de ouro.">
+    <link rel="icon" href="./assets/icons/mpopo-favicon.ico" type="image/x-icon">
 
+    <script>document.documentElement.className += ' js';</script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <picture>
-            <img src="" alt="Logo">
-        </picture>
-        <nav>
-            <menu>
-                <li><a href="/index.html">Início</a></li>
-                <li><a href="/sobre.html">Sobre</a></li>
-                <li><a href="/localizacao.html">Localização</a></li>
-                <li><a href="/curiosidades.html">Curiosidades</a></li>
-            </menu>
-            <button><a href="#contatos">Fale Conosco</a></button>
-        </nav>
+    <header class="header light" data-inicio="e">
+        <div class="header-conteudo container">
+            <picture>
+                <img src="./assets/logo/logo1.svg" alt="Logotipo Mpopo Gold">
+            </picture>
+            <nav>
+                <!-- <button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
+                    <img src="./assets/icons/menu-burger.svg" alt="Ícone de menu">
+                </button> -->
+                <menu class="menu-lista">
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./sobre.html">Quem somos</a></li>
+                    <li><a href="./estrutura.html">Estrutura</a></li>
+                    <li><a href="./curiosidades.html">Curiosidades</a></li>
+                </menu>
+            </nav>
+            <a class="btn1" href="./contatos.html">Fale conosco</a>
+        </div>
     </header>
+
     <main>
-        <section class="contatos" id="contatos" data-anime="scroll">
+        <section class="contatos" id="contatos">
             <div class="contatos-conteudo container">
                 <h1>Contactos</h1>
-                <p>Quer saber mais sobre nossos produtos e serviços? Entre em contacto conosco pelo formulário a seguir, ou pelos nossos canais de atendimento. Estamos sempre prontos para tirar suas dúvidas e oferecer as melhores soluções para o seu negócio.</p>
+                <p>Quer saber mais sobre nossos produtos e serviços? Entre em contacto conosco pelo formulário a seguir,
+                    ou pelos nossos canais de atendimento. Estamos sempre prontos para tirar suas dúvidas e oferecer as
+                    melhores soluções para o seu negócio.</p>
                 <address class="endereco-contatos">
                     <p>
                         <a target="_blank" href="https://goo.gl/maps/oU7Qtgry7frgesnn8">
@@ -41,15 +57,6 @@
                     <p>Telefone: <a target="_blank" href="tel:+244932730086">+244 932 730 086</a></p>
                     <p>Email: <a target="_blank" href="mailto:info@mnkitota.com">info@mnkitota.com</a></p>
                 </address>
-                <div class="redes-sociais">
-                    <h3>Nos encontre também nas redes sociais</h3>
-                    <ul>
-                        <li><a target="_blank" href="https://www.facebook.com"><img src="./css/img/icons/facebook.svg" alt="Ícone do Facebook"></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com"><img src="./css/img/icons/instagram.svg" alt="Ícone do Instagram"></a></li>
-                        <li><a target="_blank" href="https://www.whatsapp.com"><img src="./css/img/icons/whatsapp.svg" alt="Ícone do Whatsapp"></a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com"><img src="./css/img/icons/linkedin.svg" alt="Ícone do LinkedIn"></a></li>
-                    </ul>
-                </div>
                 <form class="formulario" action="./">
                     <div class="forms-nome">
                         <label for="nome">Nome</label>
@@ -72,18 +79,43 @@
                 </form>
             </div>
         </section>
-
     </main>
-    <footer class="footer">
-        <div class="footer-conteudo container">
-            <a href="/index.html">
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <a href="#home">
                 <picture>
-                    <source srcset="" media="(max-width: 1440px)">
-                    <img src="" alt="Logotipo Mpopo Gold">
+                    <img src="./assets/logo/logo-flat.svg" alt="Logotipo Mpopo Gold monocromática">
                 </picture>
             </a>
-            <p>Todos os direitos reservados.</p>
+            <address>
+                <address class="endereco-contatos">
+                    <p>
+                        <a target="_blank" href="https://goo.gl/maps/oU7Qtgry7frgesnn8">
+                            Condomínio Belas Business Park<br>
+                            Edf. Luanda, 8º 801ª Talatona<br>
+                            República de Angola
+                        </a>
+                    </p>
+                    <p>Telefone: <a target="_blank" href="tel:+244932730086">+244 932 730 086</a></p>
+                    <p>Email: <a target="_blank" href="mailto:info@mpopogold.com">info@mpopogold.com</a></p>
+                </address>
+
+            </address>
+            <div>
+                <div class="redes-sociais">
+                    <h3>Nos encontre também nas redes sociais</h3>
+                    <ul>
+                        <li><a target="_blank" href="https://www.facebook.com"><img src="./assets/icons/facebook.svg" alt="Ícone do Facebook"></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com"><img src="./assets/icons/instagram.svg" alt="Ícone do Instagram"></a></li>
+                        <li><a target="_blank" href="https://www.whatsapp.com"><img src="./assets/icons/whatsapp.svg" alt="Ícone do Whatsapp"></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com"><img src="./assets/icons/linkedin.svg" alt="Ícone do LinkedIn"></a></li>
+                    </ul>
+                </div>
+                <p class="copyright">Todos os direitos reservados.</p>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>

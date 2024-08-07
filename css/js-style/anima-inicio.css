@@ -1,40 +1,17 @@
 [data-inicio="a"] {
     opacity: 0;
-    animation: animaInicio 1500ms forwards;
-    animation-delay: 500ms;
+    transition: 0.3s ease-out;
+    animation: animaInicio 2.5s 1s forwards ease-out;
 }
 
 [data-inicio="b"] {
     opacity: 0;
-    animation: animaInicio 1500ms forwards;
-    animation-delay: 2500ms;
-}
-
-[data-inicio="c"] {
-    opacity: 0;
-    animation: animaInicio 1500ms forwards;
-    animation-delay: 6500ms;
-}
-
-[data-inicio="d"] {
-    opacity: 0;
-    animation: animaInicio 1500ms forwards;
-    animation-delay: 13000ms;
-}
-
-[data-inicio="e"] {
-    opacity: 0;
-    animation: animaInicio 1500ms forwards;
-    animation-delay: 1000ms;
+    transition: 0.3s ease-out;
+    animation: animaInicio 2.5s 2.5s forwards ease-out;
 }
 
 @keyframes animaInicio {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
     to {
         opacity: 1;
-        transform: translateY(0px);
     }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,25 +11,33 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <picture>
-            <img src="" alt="Logo">
-        </picture>
-        <nav>
-            <menu>
-                <li><a href="/index.html">Início</a></li>
-                <li><a href="/sobre.html">Sobre</a></li>
-                <li><a href="#localizacao">Localização</a></li>
-                <li><a href="/curiosidades.html">Curiosidades</a></li>
-            </menu>
-            <button><a href="/contatos.html">Fale Conosco</a></button>
-        </nav>
+    <header class="header light" data-inicio="e">
+        <div class="header-conteudo container">
+            <picture>
+                <img src="./assets/logo/logo1.svg" alt="Logotipo Mpopo Gold">
+            </picture>
+            <nav>
+                <!-- <button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
+                    <img src="./assets/icons/menu-burger.svg" alt="Ícone de menu">
+                </button> -->
+                <menu class="menu-lista">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./localizacao.html">Localização</a></li>
+                    <li><a href="./curiosidades.html">Curiosidades</a></li>
+                </menu>
+            </nav>
+            <a class="btn1" href="#contatos">Fale conosco</a>
+        </div>
     </header>
     <main>
         <section class="localizacao-inicio">
             <h1>Nossa localização</h1>
-            <p>A mina Mpopo está localizada no município de Jamba, na província de Huíla em Angola. Estamos localizados em uma região reconhecida pela extração de ouro em projetos licenciados pelo Ministério dos Recursos Minerais, Petróleo e Gás (Mirempet)</p>
+            <p>A mina Mpopo está localizada no município de Jamba, na província de Huíla em Angola. Estamos localizados
+                em uma região reconhecida pela extração de ouro em projetos licenciados pelo Ministério dos Recursos
+                Minerais, Petróleo e Gás (Mirempet)</p>
             <picture>
                 <img src="" alt="Imagem5">
             </picture>
@@ -56,14 +65,19 @@
             <div class="redes-sociais">
                 <h3>Nos encontre também nas redes sociais</h3>
                 <ul>
-                    <li><a target="_blank" href="https://www.facebook.com"><img src="./css/img/icons/facebook.svg" alt="Ícone do Facebook"></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com"><img src="./css/img/icons/instagram.svg" alt="Ícone do Instagram"></a></li>
-                    <li><a target="_blank" href="https://www.whatsapp.com"><img src="./css/img/icons/whatsapp.svg" alt="Ícone do Whatsapp"></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com"><img src="./css/img/icons/linkedin.svg" alt="Ícone do LinkedIn"></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com"><img src="./css/img/icons/facebook.svg"
+                                alt="Ícone do Facebook"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com"><img src="./css/img/icons/instagram.svg"
+                                alt="Ícone do Instagram"></a></li>
+                    <li><a target="_blank" href="https://www.whatsapp.com"><img src="./css/img/icons/whatsapp.svg"
+                                alt="Ícone do Whatsapp"></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com"><img src="./css/img/icons/linkedin.svg"
+                                alt="Ícone do LinkedIn"></a></li>
                 </ul>
             </div>
         </address>
         <p>Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>

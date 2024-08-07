@@ -18,7 +18,14 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: 'Beyond Infinity';
+    src: url('../../assets/fonts/beyond_infinity.ttf') format('truetype');
+    font-weight: 400;
+}
+
 :root {
     --font-1: "Montserrat", Arial, sans-serif;
     --font-2: "Adero", "Montserrat", sans-serif;
+    --font-3: "Beyond Infinity";
 }

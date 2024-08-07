@@ -1,57 +1,129 @@
-/*  SOBRE */
+/* #region ---  SOBRE */
 
 .sobre {
     min-height: 100vh;
-    background-color: var(--s2);
+    background-color: rgba(74, 57, 36, 0.85);
+    position: relative;
 }
 
 .sobre > div {
-    display: grid;
-    grid-template-columns: 7fr 5fr;
-    gap: 2rem;
-    padding-top: 20rem;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: end;
+
+    & h2 {
+        font-family: var(--font-2);
+        font-weight: 600;
+        font-size: 1.25rem;
+        color: var(--a3);
+    }
+
+    & p {
+        font-family: var(--font-1);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--bege-50);
+
+        max-width: 26rem;
+    }
 }
 
-.sobre picture {
-    grid-column: 1;
-    grid-row: 1/6;
+.sobre > picture {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    
+    & img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        opacity: 0;
+        animation: showUp 1s 0.5s ease-out forwards;
+    }
 }
 
-.sobre h2 {
-    grid-column: 2;
-    grid-row: 4;
-
-    font-family: var(--font-2);
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: var(--s5);
+@keyframes showUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.sobre p {
-    grid-column: 2;
-    grid-row: 5;
+/* #endregion */
 
-    font-family: var(--font-1);
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--c70);
+/* #region --- EMPRESA */
 
-    max-width: 26rem;
+.sobre-empresa {
+    display: flex;
+    align-items: end;
+    min-height: 90vh;
+    background-color: var(--bege-100);
+    position: relative;
 }
 
-/* EQUIPE */
+.sobre-empresa > picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    & img {
+        min-height: 90vh;
+    }
+}
+
+.sobre-empresa > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    padding-bottom: 13rem;
+    padding-left: 45%;
+    z-index: 1;
+    
+    & h2 {
+        font-family: var(--font-2);
+        font-weight: 600;
+        font-size: 1.25rem;
+        color: var(--bege-500);
+    }
+    
+    & p {
+        font-family: var(--font-1);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--c70);
+    
+        margin-bottom: 1rem;
+        max-width: 25rem;
+    }
+}
+
+/* #endregion */
+
+/* #region --- EQUIPE */
 
 .sobre-equipe {
-    min-height: 100vh;
-    background-color: var(--s1);
+    display: flex;
+    align-items: center;  
+    min-height: 90vh;
+    background-color: var(--bege-100);
     position: relative;
 }
 
 .sobre-equipe > div {
     display: grid;
-    grid-template-columns: 4fr 2fr 6fr;
-    padding-top: 13rem;
-    padding-bottom: 4rem;
+    grid-template-columns: 6fr 6fr;
+    gap: 0 2rem;
 }
 
 .sobre-equipe h2 {
@@ -61,7 +133,7 @@
     font-family: var(--font-2);
     font-weight: 600;
     font-size: 1.25rem;
-    color: var(--s5);
+    color: var(--a5);
 }
 
 .sobre-equipe p {
@@ -81,12 +153,14 @@
     grid-column: 1;
     grid-row: 4;
 
-    position: absolute;
     top: 50vh;
     left: 0;
 }
 
 .sobre-equipe img.grafico {
-    grid-column: 3;
-    grid-row: 2/6;
+    grid-column: 2;
+    grid-row: 1/5;
+    width: 100%;
 }
+
+/* #endregion */

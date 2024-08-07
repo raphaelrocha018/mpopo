@@ -30,7 +30,7 @@
 }
 
 .light li a:hover {
-    color: var(--p3);
+    color: var(--a3);
 }
 
 .dark li a {
@@ -38,46 +38,7 @@
 }
 
 .dark li a:hover {
-    color: var(--p5);
-}
-
-.btn1 {
-    font-family: var(--font-2);
-    font-size: 0.875rem;
-    font-weight: 500;
-    text-align: center;
-
-    color: var(--p6);
-    background-color: var(--p3);
-
-    padding: 1rem 2rem;
-    border-radius: 0.5rem;
-    width: 12rem;
-    transition: 0.2s ease;
-}
-
-.btn1:hover {
-    background-color: var(--p2);
-    color: var(--p5);
-}
-
-.btn2 {
-    font-family: var(--font-2);
-    font-size: 0.875rem;
-    font-weight: 500;
-    text-align: center;
-
-    color: var(--p1);
-    background-color: var(--p4);
-
-    padding: 1rem 2rem;
-    border-radius: 0.5rem;
-    width: 12rem;
-    transition: 0.2s ease;
-}
-
-.btn2:hover {
-    background-color: var(--s5);
+    color: var(--a5);
 }
 
 /* RESPONSIVO HEADER */
@@ -91,22 +52,10 @@
         gap: 2.5rem;
         font-weight: 500;
     }
-
-    .btn1 {
-        font-weight: 500;
-        padding: 0.875rem 1.5rem;
-        width: 10rem;
-    }
 }
 
 @media (max-width: 1080px) {
     .header-conteudo picture {
         display: none;
-    }
-
-    .btn1 {
-        font-size: 0.875rem;
-        padding: 0.875rem 2rem;
-        width: 12rem;
     }
 }

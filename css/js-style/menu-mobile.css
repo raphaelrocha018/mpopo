@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--p6);
+        background-color: var(--a6);
         width: 3rem;
         height: 3rem;
         border-radius: 0.5rem;
@@ -16,13 +16,13 @@
     }
 
     .menu-mobile:hover {
-        background-color: var(--p5);
+        background-color: var(--a5);
         transition: 0.2s;
     }
 
     .menu-mobile.active {
         display: flex;
-        background-color: var(--p3);
+        background-color: var(--a3);
     }
 
     .menu-mobile img {
@@ -38,7 +38,7 @@
         flex-direction: column;
         gap: 0.5rem;
         align-items: center;
-        background-color: var(--p3);
+        background-color: var(--a3);
         margin-top: 0.25rem;
         border-radius: 0.5rem;
         z-index: 2;
@@ -59,7 +59,7 @@
         text-align: center;
         font-size: 0.875rem;
         border-radius: 0.5rem;
-        color: var(--p1);
+        color: var(--a1);
     }
 
     .menu-lista li a:hover {

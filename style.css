@@ -1,24 +1,21 @@
 /* COMPONENTES */
-
-@import url("./css/componentes/tipografia.css");
-@import url("./css/componentes/cores.css");
+@import url("./css/componentes/fonts.css");
+@import url("./css/componentes/colors.css");
+@import url("./css/componentes/buttons.css");
 
 /* GLOBAL */
-
 @import url("./css/global.css");
 @import url("./css/header.css");
 @import url("./css/footer.css");
 
 /* PÁGINAS */
-
 @import url("./css/inicio.css");
 @import url("./css/sobre.css");
-@import url("./css/localizacao.css");
+@import url("./css/estrutura.css");
 @import url("./css/curiosidades.css");
 @import url("./css/contatos.css");
 
 /* JAVASCRIPT */
-
 @import url("./css/js-style/anima-scroll.css");
 @import url("./css/js-style/anima-inicio.css");
 /* @import url("./css/js-style/menu-mobile.css"); */

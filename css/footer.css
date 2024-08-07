@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--s1);
+    background-color: var(--bege-50);
 }
 
 .dark {
@@ -39,7 +39,7 @@
 }
 
 .footer address a:hover {
-    color: var(--p6);
+    color: var(--a6);
 }
 
 .redes-sociais h3 {

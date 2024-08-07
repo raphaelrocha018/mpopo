@@ -1,0 +1,43 @@
+# Arquivos de build
+dist/
+build/
+
+# Dependências geradas pelo npm
+node_modules/
+
+# Arquivos de configuração
+.env
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de backup
+*.bak
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos de teste
+__tests__/
+test/
+
+# Arquivos de documentação
+docs/
+
+# Arquivos de dados
+data/
+
+# Arquivos de exemplo
+examples/
+
+# Outros arquivos gerados
+*.swp
+*.swo
+*.DS_Store

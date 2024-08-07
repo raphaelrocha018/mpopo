@@ -5,33 +5,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#a38a5d">
 
-    <title>Sobre - Mpopo Gold</title>
-    <meta name="description" content="Mpopo Gold é uma empresa de mineração com base em Angola, focada na extração de ouro.">
+    <title>Mpopo Gold - Mina de Ouro</title>
+    <meta name="description"
+        content="Mpopo Gold é uma empresa de mineração com base em Angola, focada na extração de ouro.">
     <link rel="icon" href="./assets/icons/mpopo-favicon.ico" type="image/x-icon">
 
-    <!-- <script>document.documentElement.className += ' js';</script> -->
+    <script>document.documentElement.className += ' js';</script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header dark">
+    <header class="header light" data-inicio="e">
         <div class="header-conteudo container">
             <picture>
-                <img src="./assets/logo/logo-flat-small.svg" alt="Logotipo Mpopo Gold monocromático">
+                <img src="./assets/logo/logo1.svg" alt="Logotipo Mpopo Gold">
             </picture>
             <nav>
+                <!-- <button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
+                    <img src="./assets/icons/menu-burger.svg" alt="Ícone de menu">
+                </button> -->
                 <menu class="menu-lista">
                     <li><a href="./index.html">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="./localizacao.html">Localização</a></li>
+                    <li><a href="./sobre.html">Quem somos</a></li>
+                    <li><a href="./estrutura.html">Estrutura</a></li>
                     <li><a href="./curiosidades.html">Curiosidades</a></li>
                 </menu>
             </nav>
-            <a class="btn2" href="#contatos">Fale conosco</a>
+            <a class="btn1" href="./contatos.html">Fale conosco</a>
         </div>
     </header>
 
@@ -39,25 +44,54 @@
         <section class="sobre" id="sobre">
             <div class="container">
                 <h2>Quem somos?</h2>
-                <p>Somos uma empresa mineira, fundada em Angola no ano de 2018, focada no reconhecimento, pesquisa prospecção e exploração de minerais ferrosos e não ferrosos.</br></br>
-                    Ao concluir os estudos técnicos e de viabilidade econômica, foi atribuída a licença de exploração nº 288/02/02/T.E/ANG – MIREMPET.</br></br>
-                    Dessa forma foram feitos trabalhos de reavaliação das reservas que estão em condições para o início da exploração no mês de junho de 2023.</p>
-                <picture>
-                    <img src="./assets/img/sobre-01.jpg" alt="Maquinário em campo de mineração">
-                </picture>
+                <p>Mpopo Gold, Lda.  empresa mineira, fundada no ano de 2019, quese dedica ao reconhecimento, pesquisa,
+                    prospecção e exploração de ouro na República de Angola.</br></br>
+                    O nosso primeiro projecto de exploração de ouro resultou de estudos geológicos de prospecção, que
+                    datam do período anterior a independência do pais, e que contaram com a intervenção de renomados
+                    especialistas portugueses, angolanos, espanhóis, russos e suíços, ao longo dos mais de 50 anos de
+                    trabalho.</br></br>
+                    Na sequência da conclusão dosestudos técnicos e de viabilidade económica e financeira foi outorgada
+                    alicença de exploração nº 288/02/02/T.E/ANG – MIREMPET, localizada no Municípioda Jamba, Província
+                    da Huíla.</p>
             </div>
+            <picture>
+                <img src="./assets/img/sobre-01.jpg" alt="Maquinário em campo de mineração">
+            </picture>
+        </section>
+        <section class="sobre-empresa" id="sobre-empresa">
+            <div class="container">
+                <h2>Nossa empresa</h2>
+                <p>A nossa equipa é integrada proprofissionais altamente qualificados, com competência, experiência,
+                    focados na exploração dos recursos de modo responsável e sustentável.
+                    <br>
+                    <br>
+                    Geólogos, engenheiros de minas, gestores e outros especialistas, com mais de 20 anos de
+                    experiência integram a nossa equipa de trabalho, que executa o plano estratégico para os próximos 5
+                    anos.
+                    <br>
+                    <br>
+                    A governação da empresa está em linha com as boas práticas, exigidas pela Iniciativa da
+                    Transparência nas Industrias Extractivas (ITIE).
+                </p>
+            </div>
+            <picture>
+                <img src="./assets/img/sobre-02.jpg" alt="Campo de mineração visto de cima, com vários caminhões">
+            </picture>
         </section>
         <section class="sobre-equipe" id="sobre-equipe">
             <div class="container">
                 <h2 class="portugues">Equipa de Gestão</h2>
-                <p class="portugues">No organigrama a seguir, apresentamos a forma como nossa empresa é estruturada e hierarquizada visando o alcance dos nossos objetivos e resultados de forma a aproveitar o potencial de cada um.</p>
-                <img class="foto" src="./assets/img/sobre-02.jpg" alt="Mesa de escritório">
-                <img class="grafico" src="./assets/img/sobre-organograma.svg" alt="Organograma da diretoria e comissões da Mpopo Gold">
+                <p class="portugues">No organigrama a seguir, apresentamos a forma como nossa empresa é estruturada e
+                    hierarquizada visando o alcance dos nossos objetivos e resultados de forma a aproveitar o potencial
+                    de cada um.</p>
+                <img class="foto" src="./assets/img/sobre-03.jpg" alt="Mesa de escritório">
+                <img class="grafico" src="./assets/img/sobre-organograma.svg"
+                    alt="Organograma da diretoria e comissões da Mpopo Gold">
             </div>
         </section>
     </main>
 
-    <footer class="footer dark" id="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <a href="#home">
                 <picture>
@@ -82,10 +116,14 @@
                 <div class="redes-sociais">
                     <h3>Nos encontre também nas redes sociais</h3>
                     <ul>
-                        <li><a target="_blank" href="https://www.facebook.com"><img src="./assets/icons/facebook.svg" alt="Ícone do Facebook"></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com"><img src="./assets/icons/instagram.svg" alt="Ícone do Instagram"></a></li>
-                        <li><a target="_blank" href="https://www.whatsapp.com"><img src="./assets/icons/whatsapp.svg" alt="Ícone do Whatsapp"></a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com"><img src="./assets/icons/linkedin.svg" alt="Ícone do LinkedIn"></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com"><img src="./assets/icons/facebook.svg"
+                                    alt="Ícone do Facebook"></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com"><img src="./assets/icons/instagram.svg"
+                                    alt="Ícone do Instagram"></a></li>
+                        <li><a target="_blank" href="https://www.whatsapp.com"><img src="./assets/icons/whatsapp.svg"
+                                    alt="Ícone do Whatsapp"></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com"><img src="./assets/icons/linkedin.svg"
+                                    alt="Ícone do LinkedIn"></a></li>
                     </ul>
                 </div>
                 <p class="copyright">Todos os direitos reservados.</p>

@@ -2,7 +2,7 @@
 
 .js [data-anime="scroll"] {
     opacity: 0;
-    transition: ease-in 0.5s;
+    transition: 1s ease-out;
     transform: translateX(-30px);
 }
 
